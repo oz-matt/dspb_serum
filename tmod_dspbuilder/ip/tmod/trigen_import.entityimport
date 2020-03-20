@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><entity name="trigen_import"><interface bustype="wire" clock="clock" direction="start" name="triout"><port direction="Output" name="triout" role="wire" vhdl-type="STD_LOGIC_VECTOR" width="32"/></interface><hdl><native hdl-name="trigen" language="VHDL"/></hdl></entity>

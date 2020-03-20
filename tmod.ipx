@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+ <!--  date: 2020.03.19.17:42:53 -->
+ <component
+   name="tmod"
+   file="tmod.slx"
+   displayName="tmod"
+   version="1.0"
+   description="A DSP Builder System."
+   tags="AUTHORSHIP=DSPBuilder Design"
+   categories="DSPBuilder 7.1 Components"
+   factory="DSPBuilderFactory" />
+ <component
+   name="tmod_Interface"
+   file="tmod.slx"
+   displayName="tmod_Interface"
+   version="1.0"
+   description="A DSP Builder System."
+   tags="AUTHORSHIP=DSPBuilder Design"
+   categories="DSPBuilder Systems"
+   factory="DSPBuilderFactory" />
+ <component
+   name="trigen_import"
+   file="DSPBuilder_tmod_import/trigen_import.entityimport"
+   displayName="trigen_import"
+   version="8.0.0"
+   description=""
+   tags="INTERNAL_COMPONENT=true"
+   categories=""
+   factory="ImportFactory" />
+</library>

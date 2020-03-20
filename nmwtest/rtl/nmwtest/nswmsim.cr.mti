@@ -1,0 +1,134 @@
+D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_safe_path_flat.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_safe_path_flat.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package nmwtest_dut_safe_path
+-- Compiling package body nmwtest_dut_safe_path
+-- Loading package nmwtest_dut_safe_path
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_scale1.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_scale1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_library_package
+-- Loading package altera_mf_components
+-- Loading package LPM_COMPONENTS
+-- Loading package nmwtest_dut_safe_path
+-- Compiling entity nmwtest_dut_scale1
+-- Compiling architecture normal of nmwtest_dut_scale1
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_stm.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:\dspb_serum\nmwtest\rtl\nmwtest\nmwtest_dut_stm.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package nmwtest_dut_safe_path
+-- Compiling entity nmwtest_dut_stm
+-- Compiling architecture normal of nmwtest_dut_stm
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_atb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_atb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity nmwtest_dut_atb
+-- Compiling architecture normal of nmwtest_dut_atb
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_safe_path_msim.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_safe_path_msim.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package nmwtest_dut_safe_path
+-- Compiling package body nmwtest_dut_safe_path
+-- Loading package nmwtest_dut_safe_path
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_library_package
+-- Loading package altera_mf_components
+-- Loading package LPM_COMPONENTS
+-- Loading package nmwtest_dut_safe_path
+-- Compiling entity nmwtest_dut
+-- Compiling architecture normal of nmwtest_dut
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_filter1_stm.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_filter1_stm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package nmwtest_dut_safe_path
+-- Compiling entity nmwtest_dut_filter1_stm
+-- Compiling architecture normal of nmwtest_dut_filter1_stm
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_safe_path.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_safe_path.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package nmwtest_dut_safe_path
+-- Compiling package body nmwtest_dut_safe_path
+-- Loading package nmwtest_dut_safe_path
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/dspba_library_package.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/dspba_library_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package dspba_library_package
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_scale1_stm.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_scale1_stm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package nmwtest_dut_safe_path
+-- Compiling entity nmwtest_dut_scale1_stm
+-- Compiling architecture normal of nmwtest_dut_scale1_stm
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_filter1_atb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_filter1_atb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity nmwtest_dut_filter1_atb
+-- Compiling architecture normal of nmwtest_dut_filter1_atb
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_filter1.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_filter1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_library_package
+-- Loading package altera_mf_components
+-- Loading package LPM_COMPONENTS
+-- Loading package nmwtest_dut_safe_path
+-- Compiling entity nmwtest_dut_filter1
+-- Compiling architecture normal of nmwtest_dut_filter1
+
+} {} {}} D:/dspb_serum/nmwtest/rtl/nmwtest/nmwtest_dut_scale1_atb.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:\dspb_serum\nmwtest\rtl\nmwtest\nmwtest_dut_scale1_atb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity nmwtest_dut_scale1_atb
+-- Compiling architecture normal of nmwtest_dut_scale1_atb
+
+} {} {}}

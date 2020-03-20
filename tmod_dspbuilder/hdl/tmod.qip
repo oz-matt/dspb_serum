@@ -1,0 +1,7 @@
+set_global_assignment -name "VHDL_FILE" [file join $::quartus(qip_path)  "tmod_GN.vhd" ]
+set_global_assignment -name "VHDL_FILE" [file join $::quartus(qip_path)  "alt_dspbuilder_clock_GNF343OQUJ.vhd" ]
+set_global_assignment -name "VHDL_FILE" [file join $::quartus(qip_path)  "alt_dspbuilder_port_GN37ALZBS4.vhd" ]
+set_global_assignment -name "VHDL_FILE" [file join $::quartus(qip_path)  "alt_dspbuilder_vcc_GN.vhd" ]
+set_global_assignment -name "VHDL_FILE" [file join $::quartus(qip_path)  "alt_dspbuilder_vcc.vhd" ]
+set_global_assignment -name "VHDL_FILE" [file join $::quartus(qip_path)  "tmod.vhd" ]
+set_global_assignment -name "VHDL_FILE" [file join $::quartus(qip_path)  "alt_dspbuilder_clock.vhd" ]

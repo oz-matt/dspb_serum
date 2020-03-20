@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/intelFPGA/16.1/dspba/Blocksets/BaseBlocks/modelip.xsl"?>
+<MODEL>
+<NAME>nmwtest/ChanView</NAME>
+<BUILD_YEAR>2016</BUILD_YEAR>
+<LATENCY block='lastTStep'>1</LATENCY>
+<DOCPATH>file:///D:/intelFPGA/16.1/quartus/dspba/Docs/Help/</DOCPATH>
+<DESCRIPTION>
+This help page relates to the specific instance 'nmwtest_ChanView' of the CHANVIEW block
+</DESCRIPTION>
+<HELP>file:///D:/intelFPGA/16.1/quartus/dspba/Docs/Help/CHANVIEW_help.html</HELP>
+<BLOCKTYPE>CHANVIEW</BLOCKTYPE>
+<INFO>
+ <TEXT>Created using Altera DSP Builder Advanced software</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Written on Mon Mar 16 22:23:12 2020
+</TEXT>
+</INFO>
+<PORTS>
+<PORT>
+ <NAME>xIn_v</NAME>
+ <WIDTH>1</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Qualifying signal to indicate validity of data signals</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xIn_c</NAME>
+ <WIDTH>8</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Qualifying signal to indicate channel of data signals</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xIn_0</NAME>
+ <WIDTH>14</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Data signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xIn_1</NAME>
+ <WIDTH>14</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Data signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xIn_2</NAME>
+ <WIDTH>14</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Data signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xIn_3</NAME>
+ <WIDTH>14</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Data signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>c0_o</NAME>
+ <WIDTH>14</WIDTH>
+ <DIRECTION>out</DIRECTION>
+ <DESCRIPTION>General Purpose Output</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>c1_o</NAME>
+ <WIDTH>14</WIDTH>
+ <DIRECTION>out</DIRECTION>
+ <DESCRIPTION>General Purpose Output</DESCRIPTION>
+</PORT>
+</PORTS>
+
+<TIMING>
+ <WAVEFORM>
+  <NAME>Overview</NAME>
+  <PATH>D:/intelFPGA/16.1/quartus/dspba/Blocksets/BaseBlocks./cic.svg</PATH>
+ </WAVEFORM>
+</TIMING>
+<RESOURCES>
+<TOTAL>
+ <LUT4>72</LUT4>
+ <MULT>0</MULT>
+ <BITS>0</BITS>
+ <BLOCKS>0</BLOCKS>
+</TOTAL>
+</RESOURCES>
+
+</MODEL>

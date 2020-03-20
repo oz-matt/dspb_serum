@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Thu Mar 19 21:58:57 2020
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+Revision Name : dspb_serum
+Top-level Entity Name : dspb_serum
+Family : Cyclone IV GX
+Total logic elements : 3,656
+    Total combinational functions : 3,031
+    Dedicated logic registers : 2,027
+Total registers : 2027
+Total pins : 361
+Total virtual pins : 0
+Total memory bits : 2,162,048
+Embedded Multiplier 9-bit elements : 4
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0

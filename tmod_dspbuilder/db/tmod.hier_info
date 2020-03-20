@@ -1,0 +1,29 @@
+|tmod
+Clock => tmod_GN:tmod_GN_0:inst_tmod_GN_0.Clock
+HEX33 <= tmod_GN:tmod_GN_0:inst_tmod_GN_0.HEX33
+aclr => tmod_GN:tmod_GN_0:inst_tmod_GN_0.aclr
+
+
+|tmod|tmod_GN:\tmod_GN_0:inst_tmod_GN_0
+HEX33 <= alt_dspbuilder_port_GN37ALZBS4:hex33_0.output
+Clock => alt_dspbuilder_clock_GNF343OQUJ:clock_0.clock
+aclr => alt_dspbuilder_clock_GNF343OQUJ:clock_0.aclr_n
+
+
+|tmod|tmod_GN:\tmod_GN_0:inst_tmod_GN_0|alt_dspbuilder_clock_GNF343OQUJ:clock_0
+aclr => ~NO_FANOUT~
+aclr_n => aclr_out.DATAIN
+aclr_out <= aclr_n.DB_MAX_OUTPUT_PORT_TYPE
+clock => clock_out.DATAIN
+clock_out <= clock.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tmod|tmod_GN:\tmod_GN_0:inst_tmod_GN_0|alt_dspbuilder_vcc_GN:vcc
+output <= <VCC>
+
+
+|tmod|tmod_GN:\tmod_GN_0:inst_tmod_GN_0|alt_dspbuilder_port_GN37ALZBS4:hex33_0
+input => output.DATAIN
+output <= input.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<island simulinkPath='nmwtest/dut' topLevelEntity='nmwtest_dut'>
+    <port name='clk' dir='in' role='clock'/>
+    <port name='areset' dir='in' clock='clk' role='resetHigh'/>
+    <port name='h_areset' dir='in' clock='clk' role='resetHigh'/>
+    <port name='d_0' clock='clk' reset='areset' width='14' dir='in' role='data' qsys_role='data_d_0' stm='nmwtest/nmwtest_dut_filter1_xIn.stm' highLevelName='d' highLevelIndex='0' vector='0' complex='0'/>
+    <port name='d_1' clock='clk' reset='areset' width='14' dir='in' role='data' qsys_role='data_d_1' stm='nmwtest/nmwtest_dut_filter1_xIn.stm' highLevelName='d' highLevelIndex='1' vector='1' complex='0'/>
+    <port name='v_s' clock='clk' reset='areset' width='1' dir='in' role='valid' qsys_role='valid_v_s' stm='nmwtest/nmwtest_dut_filter1_xIn.stm' highLevelName='v' highLevelIndex='2' vector='0' complex='0'/>
+    <port name='c_s' clock='clk' reset='areset' width='8' dir='in' role='channel' qsys_role='channel_c_s' stm='nmwtest/nmwtest_dut_filter1_xIn.stm' highLevelName='c' highLevelIndex='3' vector='0' complex='0'/>
+    <port name='b_0' clock='clk' reset='areset' width='1' dir='in' role='data' qsys_role='data_b_0' stm='nmwtest/nmwtest_dut_filter1_xIn.stm' highLevelName='b' highLevelIndex='4' vector='0' complex='0'/>
+    <port name='b_1' clock='clk' reset='areset' width='1' dir='in' role='data' qsys_role='data_b_1' stm='nmwtest/nmwtest_dut_filter1_xIn.stm' highLevelName='b' highLevelIndex='5' vector='1' complex='0'/>
+    <port name='dout_0' clock='clk' reset='areset' width='14' dir='out' role='data' qsys_role='data_dout_0' stm='nmwtest/nmwtest_dut_scale1_qOut.stm' highLevelName='dout' highLevelIndex='1' vector='0' complex='0'/>
+    <port name='dout_1' clock='clk' reset='areset' width='14' dir='out' role='data' qsys_role='data_dout_1' stm='nmwtest/nmwtest_dut_scale1_qOut.stm' highLevelName='dout' highLevelIndex='1' vector='1' complex='0'/>
+    <port name='dout_2' clock='clk' reset='areset' width='14' dir='out' role='data' qsys_role='data_dout_2' stm='nmwtest/nmwtest_dut_scale1_qOut.stm' highLevelName='dout' highLevelIndex='1' vector='2' complex='0'/>
+    <port name='dout_3' clock='clk' reset='areset' width='14' dir='out' role='data' qsys_role='data_dout_3' stm='nmwtest/nmwtest_dut_scale1_qOut.stm' highLevelName='dout' highLevelIndex='1' vector='3' complex='0'/>
+    <port name='vout_s' clock='clk' reset='areset' width='1' dir='out' role='valid' qsys_role='valid_vout_s' stm='nmwtest/nmwtest_dut_scale1_qOut.stm' highLevelName='vout' highLevelIndex='2' vector='0' complex='0'/>
+    <port name='cout_s' clock='clk' reset='areset' width='8' dir='out' role='channel' qsys_role='channel_cout_s' stm='nmwtest/nmwtest_dut_scale1_qOut.stm' highLevelName='cout' highLevelIndex='3' vector='0' complex='0'/>
+    <port name='busIn_writedata' clock='clk' reset='h_areset' width='16' dir='in' role='busData' qsys_role='writedata' stm=''/>
+    <port name='busIn_address' clock='clk' reset='h_areset' width='10' dir='in' role='busAddress' qsys_role='address' stm=''/>
+    <port name='busIn_write' clock='clk' reset='h_areset' width='1' dir='in' role='busWriteEnable' qsys_role='write' stm=''/>
+    <file path='eda/sim_lib/altera_primitives_components.vhd' base='quartus' type='vhdl' usage='simOnly' lib='altera'/>
+    <file path='eda/sim_lib/altera_mf_components.vhd' base='quartus' type='vhdl' usage='simOnly' lib='altera_mf'/>
+    <file path='eda/sim_lib/altera_mf.vhd' base='quartus' type='vhdl' usage='simOnly' lib='altera_mf'/>
+    <file path='eda/sim_lib/220pack.vhd' base='quartus' type='vhdl' usage='simOnly' lib='lpm'/>
+    <file path='eda/sim_lib/220model.vhd' base='quartus' type='vhdl' usage='simOnly' lib='lpm'/>
+    <file path='eda/sim_lib/altera_lnsim_components.vhd' base='quartus' type='vhdl' usage='simOnly' lib='altera_lnsim'/>
+    <file path='eda/sim_lib/altera_lnsim.sv' base='quartus' type='vhdl' usage='simOnly' lib='altera_lnsim'/>
+    <file path='nmwtest/nmwtest_dut_safe_path_msim.vhd' base='rtl' type='vhdl' usage='simOnly'/>
+    <file path='nmwtest/nmwtest_dut_safe_path.vhd' base='rtl' type='vhdl' usage='synthOnly'/>
+    <file path='nmwtest/nmwtest_dut.vhd' base='rtl' type='vhdl' usage='all'/>
+    <file path='dspba/backend/Libraries/vhdl/base/dspba_library_package.vhd' base='quartus' type='vhdl' usage='all'/>
+    <file path='dspba/backend/Libraries/vhdl/base/dspba_library.vhd' base='quartus' type='vhdl' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1.vhd' base='rtl' type='vhdl' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm0.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm1.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm2.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm3.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm4.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm5.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm6.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm7.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm8.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm9.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm10.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo0_cm11.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm0.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm1.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm2.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm3.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm4.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm5.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm6.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm7.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm8.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm9.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm10.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo0_cm11.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm0.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm1.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm2.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm3.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm4.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm5.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm6.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm7.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm8.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm9.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm10.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u0_m0_wo1_cm11.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm0.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm1.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm2.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm3.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm4.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm5.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm6.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm7.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm8.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm9.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm10.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_filter1_u1_m0_wo1_cm11.hex' base='rtl' type='data' usage='all'/>
+    <file path='nmwtest/nmwtest_dut_scale1.vhd' base='rtl' type='vhdl' usage='all'/>
+
+</island>

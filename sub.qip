@@ -1,0 +1,6 @@
+
+#QIP file for DSP Builder system sub
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "." ]
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "sub_dspbuilder/hdl" ]
+
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "sub_dspbuilder/hdl/sub.qip" ]

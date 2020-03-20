@@ -1,0 +1,144 @@
+
+<dsp-builder xmlns="http://www.altera.com/ns/2011/dsp-builder">
+
+  <design version="1.2">
+    <param name="designGenerator">"DSP Builder 16.1 b196 "</param>
+    <param name="generateAbsoluteOutputPath">"D:\\dspb_serum\\nmwtest/./rtl"</param>
+    <param name="generateLanguage">VHDL</param>
+    <param name="generateOutputPath">"./rtl"</param>
+    <param name="generateSubPath">nmwtest</param>
+    <model name="nmwtest_dut">
+      <param name="avalonMMInterfaceName">bus</param>
+      <param name="generateHwTcl">true</param>
+      <param name="simulinkHasDeviceBlock">true</param>
+      <param name="simulinkPath">"nmwtest/dut"</param>
+      <param name="synthATBChannelMismatch">synthATBModeError</param>
+      <param name="synthATBFloatThreshold">0</param>
+      <param name="synthATBFloatZeroThreshold">0</param>
+      <param name="synthATBGPIOMismatch">synthATBModeWarning</param>
+      <param name="synthBusAddrWidth">10</param>
+      <param name="synthBusClockMode">synthBusClockSys</param>
+      <param name="synthBusDataWidth">16</param>
+      <param name="synthBusEndianMode">synthBusEndianBig</param>
+      <param name="synthBusFreq">0x3.e8p+4</param>
+      <param name="synthCircuitTimed">true</param>
+      <param name="synthClockFreq">0x3.e8p+4</param>
+      <param name="synthClockName">clk</param>
+      <param name="synthCycleAccurate">false</param>
+      <param name="synthDeviceFamily">"Stratix IV"</param>
+      <param name="synthDeviceInitialiseMemories">true</param>
+      <param name="synthDevicePart">AUTO</param>
+      <param name="synthDeviceSpeedGrade">"-2"</param>
+      <param name="synthDeviceSubFamily">"Stratix IV GX"</param>
+      <param name="synthGenerateATB">true</param>
+      <param name="synthOutputMode">synthOutputHDLRoot</param>
+      <param name="synthResetActiveMode">synthResetActiveHigh</param>
+      <param name="synthResetName">areset</param>
+      <block name="(pin (1 d))">
+        <param name="0">[/nmwtest_dut/inputBlock/(1 d)]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="typePinType">(typeVector 2 (typeSFixed 4 10))</param>
+      </block>
+      <block name="(pin (1 dout))">
+        <param name="0">[/nmwtest_dut/scale1/scaleWireData]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="metadata">()</param>
+        <param name="typePinType">(typeVector 4 (typeSFixed 4 10))</param>
+      </block>
+      <block name="(pin (2 v))">
+        <param name="0">[/nmwtest_dut/inputBlock/(2 v)]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="hasBooleanType">true</param>
+        <param name="typePinType">(typeUFixed 1 0)</param>
+      </block>
+      <block name="(pin (2 vout))">
+        <param name="0">[/nmwtest_dut/scale1/wireValid]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="hasBooleanType">true</param>
+        <param name="metadata">()</param>
+        <param name="typePinType">(typeUFixed 1 0)</param>
+      </block>
+      <block name="(pin (3 c))">
+        <param name="0">[/nmwtest_dut/inputBlock/(3 c)]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="typePinType">(typeUFixed 8 0)</param>
+      </block>
+      <block name="(pin (3 cout))">
+        <param name="0">[/nmwtest_dut/scale1/wireChannel]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="metadata">()</param>
+        <param name="typePinType">(typeUFixed 8 0)</param>
+      </block>
+      <block name="(pin (4 b))">
+        <param name="0">[/nmwtest_dut/inputBlock/(4 b)]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="typePinType">(typeVector 2 (typeUFixed 1 0))</param>
+      </block>
+      <block name="filter1">
+        <param name="blockType">firBlock</param>
+        <param name="busAccessMode">busAccessWrite</param>
+        <param name="busBaseAddr">512</param>
+        <param name="busUsePipelinedReads">true</param>
+        <param name="firBandCount">1</param>
+        <param name="firChannelCount">2</param>
+        <param name="firCoefs">((0 ^5 -0x8p-12 -0x1p-8 -0x1.8p-8 -0x2p-8 -0x2p-8 -0x2.8p-8 -0x2p-8 -0x1.8p-8 0 0x2p-8 0x4.8p-8 0x7.8p-8 0xBp-8 0xE.8p-8 0x1.2p-4 0x1.5p-4 0x1.78p-4 0x1.9p-4 0x1.98p-4 0x1.9p-4 0x1.78p-4 0x1.5p-4 0x1.2p-4 0xE.8p-8 0xBp-8 0x7.8p-8 0x4.8p-8 0x2p-8 0 -0x1.8p-8 -0x2p-8 -0x2.8p-8 -0x2p-8 -0x2p-8 -0x1.8p-8 -0x1p-8 -0x8p-12 0 ^5) (-0x8p-12 0 0x8p-12 0 -0x8p-12 0x8p-12 0x2p-8 0x1.8p-8 0 0x2p-8 0x5p-8 0x2p-8 -0x3p-8 0 0x4.8p-8 -0x4.8p-8 -0x1.1p-4 -0xBp-8 0 -0x1.2p-4 -0x2.fp-4 -0x1.78p-4 0x3.8p-4 0x6.6p-4 0x3.8p-4 -0x1.78p-4 -0x2.fp-4 -0x1.2p-4 0 -0xBp-8 -0x1.1p-4 -0x4.8p-8 0x4.8p-8 0 -0x3p-8 0x2p-8 0x5p-8 0x2p-8 0 0x1.8p-8 0x2p-8 0x8p-12 -0x8p-12 0 0x8p-12 0 -0x8p-12))</param>
+        <param name="firCoefsType">(typeSFixed 4 9)</param>
+        <param name="firDecimFactor">1</param>
+        <param name="firInputRate">0x3.e8p+4</param>
+        <param name="firInterpFactor">2</param>
+        <param name="firMM">((0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15))</param>
+        <param name="firPortBank">[/nmwtest_dut/inputBlock/(4 b)]</param>
+        <param name="firPortData">[/nmwtest_dut/inputBlock/(1 d)]</param>
+        <param name="firShapeType">firShapeSymmetrical</param>
+        <param name="portChannel">[/nmwtest_dut/inputBlock/(3 c)]</param>
+        <param name="portValid">[/nmwtest_dut/inputBlock/(2 v)]</param>
+        <param name="simulinkExtraCacheKeys">((2 14 10 0 1 0) (1 1 0 ^4) (1 8 0 ^4) (2 1 0 ^4) (4 32 19 0 1 0) (1 1 0 ^4) (1 8 0 ^4))</param>
+        <param name="simulinkPath">"nmwtest/dut/filter1"</param>
+        <wire name="firWireData"/>
+        <wire name="wireChannel"/>
+        <wire name="wireValid"/>
+      </block>
+      <block name="inputBlock">
+        <param name="blockType">inputBlock</param>
+        <param name="simulinkExtraCacheKeys">((2 14 10 0 1 0) (1 1 0 ^4) (1 8 0 ^4) (2 1 0 ^4))</param>
+        <wire name="(1 d)"/>
+        <wire name="(2 v)"/>
+        <wire name="(3 c)"/>
+        <wire name="(4 b)"/>
+      </block>
+      <block name="outputBlock">
+        <param name="(1 dout)">[/nmwtest_dut/scale1/scaleWireData]</param>
+        <param name="(2 vout)">[/nmwtest_dut/scale1/wireValid]</param>
+        <param name="(3 cout)">[/nmwtest_dut/scale1/wireChannel]</param>
+        <param name="blockType">outputBlock</param>
+        <param name="metadata">()</param>
+      </block>
+      <block name="scale1">
+        <param name="blockType">scaleBlock</param>
+        <param name="portChannel">[/nmwtest_dut/filter1/wireChannel]</param>
+        <param name="portValid">[/nmwtest_dut/filter1/wireValid]</param>
+        <param name="scaleOutputType">(typeSFixed 4 10)</param>
+        <param name="scalePortData">[/nmwtest_dut/filter1/firWireData]</param>
+        <param name="scalePortShift">[/nmwtest_dut/zero_idx/primWireOut]</param>
+        <param name="scaleRoundingMode">roundingTrunc</param>
+        <param name="scaleSaturateMode">saturateNone</param>
+        <param name="scaleShiftVector">(0)</param>
+        <param name="simulinkExtraCacheKeys">((4 32 19 0 1 0) (1 1 0 ^4) (1 8 0 ^4) (1 1 0 ^4) (4 14 10 0 1 0) (1 1 0 ^4) (1 8 0 ^4) (4 1 0 ^4))</param>
+        <param name="simulinkPath">"nmwtest/dut/scale1"</param>
+        <param name="synthBitAccurate">false</param>
+        <wire name="scaleWireData"/>
+        <wire name="scaleWireOverflow"/>
+        <wire name="wireChannel"/>
+        <wire name="wireValid"/>
+      </block>
+      <block name="zero_idx">
+        <param name="blockType">constBlock</param>
+        <param name="constType">(typeUFixed 1 0)</param>
+        <param name="constValue">0</param>
+        <param name="simulinkExtraCacheKeys">((1 1 0 ^4))</param>
+        <wire name="primWireOut"/>
+      </block>
+    </model>
+  </design>
+
+</dsp-builder>

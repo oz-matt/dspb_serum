@@ -1,0 +1,134 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA/16.1/modelsim_ae/win32aloem
+Esubsystem
+Z0 w1584495723
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/dspb_serum/hdl_prj/hdlsrc/tmod
+Z5 8D:/dspb_serum/hdl_prj/hdlsrc/tmod/Subsystem.vhd
+Z6 FD:/dspb_serum/hdl_prj/hdlsrc/tmod/Subsystem.vhd
+l0
+L41
+V4^7UNGY[K1`EmUd]mU_Wf1
+!s100 f2PSBEjW2=`W_Q9]ZPj1m2
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1584639405
+!i10b 1
+Z9 !s108 1584639405.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/dspb_serum/hdl_prj/hdlsrc/tmod/Subsystem.vhd|
+Z11 !s107 D:/dspb_serum/hdl_prj/hdlsrc/tmod/Subsystem.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 NoCoverage 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 9 subsystem 0 22 4^7UNGY[K1`EmUd]mU_Wf1
+l66
+L51
+VibmWz9[1d^d:6E2869Z;M0
+!s100 RmZMO1agMI<5lZZVa8;`d1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etmodtb
+Z14 w1584639355
+R1
+R2
+R3
+R4
+Z15 8D:/dspb_serum/hdl_prj/hdlsrc/tmod/tmodtb.vhd
+Z16 FD:/dspb_serum/hdl_prj/hdlsrc/tmod/tmodtb.vhd
+l0
+L6
+V0>gbK`Q@AiO@bmQFdQ=So0
+!s100 =MA8<8:3SeQ;7iE1KcQgS1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/dspb_serum/hdl_prj/hdlsrc/tmod/tmodtb.vhd|
+Z18 !s107 D:/dspb_serum/hdl_prj/hdlsrc/tmod/tmodtb.vhd|
+!i113 1
+R12
+R13
+Abehave
+Z19 DEx4 work 6 trigen 0 22 HjfnmdQ1ko2OXLmLihzZO1
+R1
+R2
+R3
+DEx4 work 6 tmodtb 0 22 0>gbK`Q@AiO@bmQFdQ=So0
+l17
+L9
+V2YAG[G=1PzkF[X<KD5kM=2
+!s100 1=kij@N0GQ[2<:OU>9FPd1
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Etrigen
+Z20 w1584639393
+R1
+R2
+R3
+R4
+Z21 8D:\dspb_serum\hdl_prj\hdlsrc\tmod\trigen.vhd
+Z22 FD:\dspb_serum\hdl_prj\hdlsrc\tmod\trigen.vhd
+l0
+L5
+VHjfnmdQ1ko2OXLmLihzZO1
+!s100 JeKZ]YncfJz2dnP`YnfhQ0
+R7
+32
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\dspb_serum\hdl_prj\hdlsrc\tmod\trigen.vhd|
+Z24 !s107 D:\dspb_serum\hdl_prj\hdlsrc\tmod\trigen.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+R19
+l15
+L12
+VN9_H0ZV4[LHkhRO@O04D;0
+!s100 ofR8iio:aViHP0B4PYhz03
+R7
+32
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13

@@ -1,0 +1,20 @@
+Fitter Status : Successful - Thu Mar 19 21:59:31 2020
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+Revision Name : dspb_serum
+Top-level Entity Name : dspb_serum
+Family : Cyclone IV GX
+Device : EP4CGX150DF31C7
+Timing Models : Final
+Total logic elements : 3,380 / 149,760 ( 2 % )
+    Total combinational functions : 3,038 / 149,760 ( 2 % )
+    Dedicated logic registers : 1,937 / 149,760 ( 1 % )
+Total registers : 1937
+Total pins : 362 / 508 ( 71 % )
+Total virtual pins : 0
+Total memory bits : 2,162,048 / 6,635,520 ( 33 % )
+Embedded Multiplier 9-bit elements : 4 / 720 ( < 1 % )
+Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
+Total PLLs : 0 / 8 ( 0 % )

@@ -1,0 +1,10 @@
+
+#QIP file for DSP Builder system tmod
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "." ]
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "tmod_dspbuilder/hdl" ]
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "DSPBuilder_tmod_import" ]
+
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "tmod_dspbuilder/hdl/tmod.qip" ]
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "DSPBuilder_tmod_import/trigen.qip" ]
+set_global_assignment -name "TCL_SCRIPT_FILE" [file join $::quartus(qip_path) "DSPBuilder_tmod_import/trigen_add.tcl" ]
+set_global_assignment -name "SOURCE_FILE" [file join $::quartus(qip_path) "DSPBuilder_tmod_import/trigen_import.entityimport" ]

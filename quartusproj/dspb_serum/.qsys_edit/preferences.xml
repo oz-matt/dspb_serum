@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="143" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Library/Basic Functions/Bridges and Adaptors,Library,Library/Interface Protocols/Serial,Library/Basic Functions/Simulation; Debug and Verification/Debug and Performance,Library/Interface Protocols,Library/Basic Functions,Library/Basic Functions/Bridges and Adaptors/Memory Mapped,Project,Library/Basic Functions/Simulation; Debug and Verification" />
+ <window width="1688" height="800" x="202" y="168" />
+ <hdlexample language="VERILOG" />
+</preferences>
